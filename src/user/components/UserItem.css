@@ -11,13 +11,16 @@
   height: 100%;
   text-decoration: none;
   padding: 1rem;
-  color: white;
-  background: #292929;
+  color: #f6edd9;
+  background: #95ab9c;
 }
 
 .user-item a:hover,
 .user-item a:active {
-  background: #ffd900;
+  background: #f0fdf2;
+  border: 1px solid transparent;
+  border-color: #709a79;
+  border-radius: 6px;
 }
 
 .user-item__content {
@@ -34,14 +37,14 @@
   font-size: 1.5rem;
   margin: 0 0 0.5rem 0;
   font-weight: normal;
-  color: #ffd900;
+  color: white;
 }
 
 .user-item:hover h2,
 .user-item:active h2,
 .user-item:hover h3,
 .user-item:active h3 {
-  color: #292929;
+  color: #709a79;
 }
 
 .user-item__info h3 {
