@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
 
 import Card from "../../shared/components/UIElements/Card";
 import Input from "../../shared/components/FormElements/Input";
@@ -158,6 +158,11 @@ const Auth = () => {
         <Button inverse onClick={switchModeHandler}>
           {isLoginMode ? "SWITCH TO SIGNUP" : "SWITCH TO LOGIN"}
         </Button>
+        <div className="demo-box">
+          <p className="demo">For demo please login as</p>
+          <p className="demo">email: demo@placepin.com</p>
+          <p className="demo">password: test1234</p>
+        </div>
       </Card>
     </React.Fragment>
   );
